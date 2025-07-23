@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import ContentRating from "./Components/ContentRating"
 import './App.css'
 
 function App(props) {
@@ -9,6 +10,7 @@ function App(props) {
     <div>
       <h1>Wellcome!</h1>
       <h2>The time now is {currDate.toLocaleTimeString()}.</h2>
+      <ContentRating/>
     </div>
   );
 }
